@@ -72,13 +72,14 @@ namespace QuanLyCongViec.Controllers
             return Unauthorized();
         }
 
+
         [HttpPost]
         [Route("register")]
         public async Task<IActionResult> Register([FromBody] DangKy model)
         {
             var userExists = await userManager.FindByNameAsync(model.Username);
             if (userExists != null)
-                return StatusCode(StatusCodes.Status500InternalServerError, new PhanHoi { Status = "Error", Message = "User already exists!" });
+                return StatusCode(StatusCodes.Status500InternalServerError, new PhanHoi { Status = "Lỗi", Message = "User đã tồn tại!" });
 
             NguoiSuDung user = new NguoiSuDung()
             {
@@ -88,10 +89,11 @@ namespace QuanLyCongViec.Controllers
             };
             var result = await userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
-                return StatusCode(StatusCodes.Status500InternalServerError, new PhanHoi { Status = "Error", Message = "User creation failed! Please check user details and try again." });
+                return StatusCode(StatusCodes.Status500InternalServerError, new PhanHoi { Status = "Lỗi", Message = "Tạo User không thành công. Vui lòng kiểm tra lại cú pháp." });
 
-            return Ok(new PhanHoi { Status = "Success", Message = "User created successfully!" });
+            return Ok(new PhanHoi { Status = "thành công", Message = "Tạo User thành công!" });
         }
+
 
         [HttpPost]
         [Route("register-admin")]
@@ -99,7 +101,7 @@ namespace QuanLyCongViec.Controllers
         {
             var userExists = await userManager.FindByNameAsync(model.Username);
             if (userExists != null)
-                return StatusCode(StatusCodes.Status500InternalServerError, new PhanHoi { Status = "Error", Message = "User already exists!" });
+                return StatusCode(StatusCodes.Status500InternalServerError, new PhanHoi { Status = "Lỗi", Message = "Đã tồn tại!" });
 
             NguoiSuDung user = new NguoiSuDung()
             {
@@ -109,7 +111,7 @@ namespace QuanLyCongViec.Controllers
             };
             var result = await userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
-                return StatusCode(StatusCodes.Status500InternalServerError, new PhanHoi { Status = "Error", Message = "User creation failed! Please check user details and try again." });
+                return StatusCode(StatusCodes.Status500InternalServerError, new PhanHoi { Status = "Lỗi", Message = "Tạo không thành công. Vui lòng kiểm tra lại cú pháp." });
 
             if (!await roleManager.RoleExistsAsync(RoleNguoiSuDung.Admin))
                 await roleManager.CreateAsync(new IdentityRole(RoleNguoiSuDung.Admin));
@@ -121,7 +123,7 @@ namespace QuanLyCongViec.Controllers
                 await userManager.AddToRoleAsync(user, RoleNguoiSuDung.Admin);
             }
 
-            return Ok(new PhanHoi { Status = "Success", Message = "User created successfully!" });
+            return Ok(new PhanHoi { Status = "thành công", Message = "Tạo thành công!" });
         }
 
     }

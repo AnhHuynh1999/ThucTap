@@ -35,9 +35,12 @@ namespace QuanLyCongViec
         {
             var connectionString = Configuration[":CONNECTION_STRING"];
             services.AddDbContext<DataContext>(options =>
-options.UseSqlServer("Data Source=DESKTOP-10731NN;Initial Catalog=CongViecDB;Persist Security Info=True;User ID=sa;Password=sapassword"));
+options.UseSqlServer("Data Source=DESKTOP-0V8GOPQ;Initial Catalog=CongViecDB;Persist Security Info=True;User ID=sa;Password=sapassword"));
             services.AddDbContext<DataContext>(opts => opts.UseSqlServer(connectionString), ServiceLifetime.Transient);
             _ = services.AddDbContext<DataContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:DataContext"]));
+            
+
+            //DI
             services.AddTransient<DuAnDAL ,DuAnDAL>();
             services.AddTransient<CongViecDAL ,CongViecDAL>();
             services.AddTransient<NguoiDungDAL ,NguoiDungDAL>();
@@ -50,11 +53,12 @@ options.UseSqlServer("Data Source=DESKTOP-10731NN;Initial Catalog=CongViecDB;Per
            
             services.AddControllers();
 
-            //iden
+
+            //identity
             services.AddIdentity<NguoiSuDung, IdentityRole>().AddEntityFrameworkStores<DataContext>().AddDefaultTokenProviders();
 
 
-            // Adding Authentication  
+            //Authentication  
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -62,7 +66,8 @@ options.UseSqlServer("Data Source=DESKTOP-10731NN;Initial Catalog=CongViecDB;Per
                 x.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
             })
 
-            // Adding Jwt Bearer  
+
+            //Jwt Bearer  
             .AddJwtBearer(x =>
             {
                 x.SaveToken = true;
@@ -77,8 +82,6 @@ options.UseSqlServer("Data Source=DESKTOP-10731NN;Initial Catalog=CongViecDB;Per
                 };
             });
 
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -92,6 +95,7 @@ options.UseSqlServer("Data Source=DESKTOP-10731NN;Initial Catalog=CongViecDB;Per
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
             //Authentication
             app.UseAuthentication();
 

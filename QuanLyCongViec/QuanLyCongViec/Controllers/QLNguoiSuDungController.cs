@@ -20,6 +20,8 @@ namespace QuanLyCongViec.Controllers
         {
             bo = dungBO;
         }
+
+
         [HttpDelete("{id}")]
         public IActionResult Delete(string id)
         {
@@ -27,6 +29,8 @@ namespace QuanLyCongViec.Controllers
                 return Ok(bo.delete(id));
             return BadRequest();
         }
+
+
         [HttpPut("{id}")]
         public IActionResult Update([FromBody]NguoiSuDung nguoisudung, string id)
         {
@@ -34,6 +38,8 @@ namespace QuanLyCongViec.Controllers
                 return Ok(bo.Update(nguoisudung));
             return BadRequest();
         }
+
+
         [HttpPost]
         public IActionResult Add(NguoiSuDung nguoi)
         {

@@ -30,10 +30,10 @@ namespace Service
         }
         public NguoiSuDung Update(NguoiSuDung nguoi)
         {
-            NguoiSuDung sua = ngdal.Find(nguoi.Id);
-            if(sua !=null)
+            //NguoiSuDung sua = ngdal.Find(nguoi.Id);
+            //if(sua !=null)
                 return ngdal.Update(nguoi);
-            return null;
+            //return null;
         }
         public NguoiSuDung Add(NguoiSuDung nguoi)
         {

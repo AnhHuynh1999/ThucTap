@@ -71,10 +71,10 @@ namespace Service
         {
             try
             {
-                NguoiDung sua = ngdal.GetByID(ng.Id);
-                if (sua != null)
-                    return ngdal.Update(sua);
-                return null;
+                //NguoiDung sua = ngdal.GetByID(ng.Id);
+                //if (sua != null)
+                    return ngdal.Update(ng);
+               // return null;
 
             }
             catch (Exception e)
