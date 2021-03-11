@@ -38,6 +38,7 @@ namespace Service
         public NguoiSuDung Add(NguoiSuDung nguoi)
         {
             return ngdal.Add(nguoi);
+            
         }
     }
 }

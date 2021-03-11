@@ -71,10 +71,10 @@ namespace Service
         {
             try
             {
-                DuAn sua = duan.GetByID(da.Id);
-                if (sua != null)
-                    return duan.Update(sua);
-                return null;
+                //DuAn sua = duan.GetByID(id);
+                //if (sua != null)
+                    return duan.Update(da);
+               // return null;
 
             }
             catch (Exception e)

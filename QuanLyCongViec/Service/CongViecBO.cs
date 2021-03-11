@@ -70,10 +70,10 @@ namespace Service
         {
             try
             {
-                CongViec sua = cvdal.GetByID(cv.Id);
-                if (sua != null)
-                    return cvdal.Update(sua);
-                return null;
+                //CongViec sua = cvdal.GetByID(cv.Id);
+                //if (sua != null)
+                    return cvdal.Update(cv);
+               // return null;
 
             }
             catch (Exception e)

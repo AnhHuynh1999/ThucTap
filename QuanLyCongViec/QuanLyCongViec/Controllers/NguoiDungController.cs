@@ -45,13 +45,13 @@ namespace QuanLyCongViec.Controllers
         {
             return Ok(bo.GetByID(id));
         }
-        [HttpPut("{id}")]
-        public IActionResult Update([FromBody] NguoiDung duanmoi, int id)
+        [HttpPut]
+        public IActionResult Update( NguoiDung duanmoi)
         {
             try
             {
 
-                return Ok(bo.Delete(id));
+                return Ok(bo.Update(duanmoi));
 
             }
             catch (Exception e)

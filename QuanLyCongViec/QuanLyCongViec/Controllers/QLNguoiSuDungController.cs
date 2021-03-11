@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyCongViec.Controllers
 {
-    [Authorize(Roles =RoleNguoiSuDung.Admin)]
+   // [Authorize(Roles =RoleNguoiSuDung.Admin)]
     [Route("api/[controller]")]
     [ApiController]
     public class QLNguoiSuDungController : ControllerBase

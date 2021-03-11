@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyCongViec.Controllers
 {
-    [Authorize(Roles = RoleNguoiSuDung.Admin)]
+    //[Authorize(Roles = RoleNguoiSuDung.Admin)]
     [Route("api/[controller]")]
     [ApiController]
     public class DuAnController : ControllerBase
@@ -45,13 +45,13 @@ namespace QuanLyCongViec.Controllers
         {
             return Ok(dabo.GetByID(id));
         }
-        [HttpPut("{id}")]
-        public IActionResult Update([FromBody] DuAn duanmoi, int id)
+        [HttpPut]
+        public IActionResult Update([FromBody] DuAn duanmoi)
         {
             try
             {
               
-                    return Ok(dabo.Delete(id));
+                    return Ok(dabo.Update(duanmoi));
            
             }
             catch (Exception e)

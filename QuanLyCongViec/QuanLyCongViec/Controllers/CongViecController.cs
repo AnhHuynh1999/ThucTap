@@ -49,7 +49,7 @@ namespace QuanLyCongViec.Controllers
             try
             {
 
-                return Ok(bo.Delete(id));
+                return Ok(bo.Update(duanmoi));
 
             }
             catch (Exception e)
