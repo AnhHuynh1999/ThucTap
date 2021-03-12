@@ -19,7 +19,7 @@ namespace DataAccess
         }
         public DuAn GetByID(int id)
         {
-            return db.DuAns.FirstOrDefault(x => x.Id == id);
+            return db.DuAns.Find(id);
         }
         public DuAn Add(DuAn DuAnMoi)
         {
@@ -49,13 +49,20 @@ namespace DataAccess
                 throw e;
             }
         }
-        public DuAn Update(DuAn duanmoi)
+        public DuAn Update(int id ,DuAn duanmoi)
         {
             try
             {
-                db.Entry(duanmoi).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                //db.Entry(duanmoi).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                //db.SaveChanges();
+                //return duanmoi;
+                DuAn thisrole = (from x in db.DuAns
+                                 where x.Id == id
+                                 select x).First();
+                thisrole.TenDA = duanmoi.TenDA;
+               
                 db.SaveChanges();
-                return duanmoi;
+                return duanmoi ;
             }
             catch (Exception e)
             {

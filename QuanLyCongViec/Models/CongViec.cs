@@ -13,6 +13,10 @@ namespace Models
         [Column(TypeName = "nvarchar")]
         [StringLength(100)]
         public string TenCV { get; set; }
+        [Required]
+        [Column(TypeName ="nvarchar")]
+        [StringLength(10)]
+        public string TinhTrang { get; set; }
         public virtual DuAn DuAn { get; set; }
         [ForeignKey("NguoiDung")]
         public int IdNguoiDung { get; set; }

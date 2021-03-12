@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cTSPF7LF8Hr/BuuskXfDzqPIfdHRU4oSjUnMXRXkmYotdD7p327R6zv+TaPqGcRfgruY0d+CWH44I+siqz8K8A==",
+  "dgSpecHash": "nEp7l8wj1Pf/L0bYWHvgeEO5ToKUVyV6qLuPJRp5ZU8T2BMZIKOorOFrtdraJcaybj1fXPbILQlBuEmuzw8pmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Models\\Models.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

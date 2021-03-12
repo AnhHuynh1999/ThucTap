@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models;
 using Service;
@@ -20,46 +21,36 @@ namespace QuanLyCongViec.Controllers
         {
             bo = nguoiDung;
         }
+
+
         [HttpGet]
         public IActionResult GetAll()
         {
             return Ok(bo.GetAll());
         }
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
-        {
-            try
-            {
 
-                return Ok(bo.Delete(id));
-
-            }
-            catch (Exception e)
-            {
-
-                return BadRequest(e.Message);
-            }
-        }
+               
         [HttpGet("{id}")]
         public IActionResult GetByID(int id)
         {
             return Ok(bo.GetByID(id));
         }
-        [HttpPut]
-        public IActionResult Update( NguoiDung duanmoi)
+
+
+        [HttpPut("{id}")]
+        public IActionResult Update([FromBody] NguoiDung duanmoi, int id)
         {
             try
             {
-
-                return Ok(bo.Update(duanmoi));
-
+                return Ok(bo.Update(id,duanmoi));
             }
             catch (Exception e)
             {
-
                 return BadRequest(e.Message);
             }
         }
+
+
         [HttpPost]
         public IActionResult Add([FromBody] NguoiDung ngmoi)
         {
@@ -69,11 +60,24 @@ namespace QuanLyCongViec.Controllers
             }
             catch (Exception e)
             {
-
                 return BadRequest(e.Message);
             }
         }
 
+
+        [Authorize(Roles = RoleNguoiSuDung.Admin)]
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            try
+            {
+                return Ok(bo.Delete(id));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
 
     }
 }

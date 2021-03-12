@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\QuanLyCongViec\\QuanLyCongViec.csproj": {}
+    "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\QuanLyCongViec\\QuanLyCongViec.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Models\\Models.csproj"
+              "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Models\\Models.csproj": {
+    "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Models\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -192,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\QuanLyCongViec\\QuanLyCongViec.csproj": {
+    "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\QuanLyCongViec\\QuanLyCongViec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\QuanLyCongViec\\QuanLyCongViec.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\QuanLyCongViec\\QuanLyCongViec.csproj",
         "projectName": "QuanLyCongViec",
-        "projectPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\QuanLyCongViec\\QuanLyCongViec.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\QuanLyCongViec\\QuanLyCongViec.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\QuanLyCongViec\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\QuanLyCongViec\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -222,11 +222,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Models\\Models.csproj"
+              "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj"
               },
-              "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Service\\Service.csproj"
+              "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Service\\Service.csproj"
               }
             }
           }
@@ -294,14 +294,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Service\\Service.csproj": {
+    "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Service\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -324,11 +324,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\hp\\Desktop\\QuanLyCongViec\\Models\\Models.csproj"
+              "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj"
               }
             }
           }

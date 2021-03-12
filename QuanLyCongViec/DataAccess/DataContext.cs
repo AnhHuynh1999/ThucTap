@@ -17,9 +17,5 @@ namespace DataAccess
         public DbSet<DuAn> DuAns { get; set; }
         public DbSet<NguoiSuDung> NguoiSuDungs { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-        }
     }
 }

@@ -49,13 +49,20 @@ namespace DataAccess
                 throw e;
             }
         }
-        public NguoiDung Update(NguoiDung nd)
+        public NguoiDung Update(int id,NguoiDung nd)
         {
             try
             {
-                db.Entry(nd).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                //db.Entry(nd).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                //db.SaveChanges();
+                //return nd;
+                NguoiDung thisrole = (from x in db.NguoiDungs
+                                      where x.Id == id
+                                      select x).First();
+                thisrole.TenNV = nd.TenNV;
+                thisrole.DiaChi = nd.DiaChi;
                 db.SaveChanges();
-                return nd;
+                return thisrole;
             }
             catch (Exception e)
             {

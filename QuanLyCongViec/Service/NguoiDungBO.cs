@@ -67,14 +67,14 @@ namespace Service
                 throw e;
             }
         }
-        public NguoiDung Update(NguoiDung ng)
+        public NguoiDung Update(int id,NguoiDung ng)
         {
             try
             {
-                //NguoiDung sua = ngdal.GetByID(ng.Id);
-                //if (sua != null)
-                    return ngdal.Update(ng);
-               // return null;
+                NguoiDung sua = ngdal.GetByID(ng.Id);
+                if (sua != null)
+                    return ngdal.Update(id,ng);
+                return null;
 
             }
             catch (Exception e)

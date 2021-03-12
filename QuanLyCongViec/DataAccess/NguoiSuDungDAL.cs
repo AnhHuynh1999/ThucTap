@@ -1,6 +1,7 @@
 ﻿using Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace DataAccess
@@ -11,6 +12,14 @@ namespace DataAccess
         public NguoiSuDungDAL (DataContext a)
         {
             db = a;
+        }
+        public List<NguoiSuDung> Get()
+        {
+            return db.NguoiSuDungs.ToList();
+        }
+        public NguoiSuDung GetById(string id)
+        {
+            return db.NguoiSuDungs.Find(id);
         }
         public NguoiSuDung Delete(NguoiSuDung nguoisudung)
         {

@@ -49,13 +49,21 @@ namespace DataAccess
                 throw e;
             }
         }
-        public CongViec Update(CongViec cvmoi)
+        public CongViec Update(int id,CongViec cvmoi)
         {
             try
             {
-                db.Entry(cvmoi).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                //db.Entry(cvmoi).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                //db.SaveChanges();
+                //return cvmoi;
+                CongViec thisrole = (from x in db.CongViecs
+                                 where x.Id == id
+                                 select x).First();
+                thisrole.NguoiDung = cvmoi.NguoiDung;
+                thisrole.TenCV = cvmoi.TenCV;
+                thisrole.TinhTrang = cvmoi.TinhTrang;
                 db.SaveChanges();
-                return cvmoi;
+                return thisrole;
             }
             catch (Exception e)
             {

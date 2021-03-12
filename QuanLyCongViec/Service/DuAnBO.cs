@@ -3,6 +3,7 @@ using DataAccess;
 using Models;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Service
 {
@@ -67,14 +68,20 @@ namespace Service
                 throw e;
             }
         }
-        public DuAn Update(DuAn da)
+        public DuAn Update(int id,DuAn da)
         {
             try
             {
-                //DuAn sua = duan.GetByID(id);
-                //if (sua != null)
-                    return duan.Update(da);
-               // return null;
+                var sua = duan.GetByID(id);
+                if (sua != null)
+                {
+
+                    var du = duan.Update(id,da);
+                    return sua;
+                }
+                return null;
+
+
 
             }
             catch (Exception e)

@@ -66,14 +66,14 @@ namespace Service
                 throw e;
             }
         }
-        public CongViec Update(CongViec cv)
+        public CongViec Update(int id ,CongViec cv)
         {
             try
             {
-                //CongViec sua = cvdal.GetByID(cv.Id);
-                //if (sua != null)
-                    return cvdal.Update(cv);
-               // return null;
+                CongViec sua = cvdal.GetByID(cv.Id);
+                if (sua != null)
+                    return cvdal.Update(id,cv);
+                return null;
 
             }
             catch (Exception e)

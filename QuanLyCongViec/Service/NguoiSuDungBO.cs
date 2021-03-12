@@ -24,21 +24,28 @@ namespace Service
             return null;
                  
         }
+        public List<NguoiSuDung> Get()
+        {
+            return ngdal.Get();
+        }
+        public NguoiSuDung GetById(string id)
+        {
+            return ngdal.GetById(id);
+        }
         public NguoiSuDung Find(string id)
         {
             return ngdal.Find(id);
         }
         public NguoiSuDung Update(NguoiSuDung nguoi)
         {
-            NguoiSuDung sua = ngdal.Find(nguoi.Id);
-            if(sua !=null)
+            //NguoiSuDung sua = ngdal.Find(nguoi.Id);
+            //if(sua !=null)
                 return ngdal.Update(nguoi);
-            return null;
+            //return null;
         }
         public NguoiSuDung Add(NguoiSuDung nguoi)
         {
             return ngdal.Add(nguoi);
-            
         }
     }
 }

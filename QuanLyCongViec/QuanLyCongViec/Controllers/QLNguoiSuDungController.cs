@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyCongViec.Controllers
 {
-   // [Authorize(Roles =RoleNguoiSuDung.Admin)]
+    [Authorize(Roles =RoleNguoiSuDung.Admin)]
     [Route("api/[controller]")]
     [ApiController]
     public class QLNguoiSuDungController : ControllerBase
@@ -20,12 +20,24 @@ namespace QuanLyCongViec.Controllers
         {
             bo = dungBO;
         }
+
+
         [HttpDelete("{id}")]
         public IActionResult Delete(string id)
         {
             if (id != null)
                 return Ok(bo.delete(id));
             return BadRequest();
+        }
+        [HttpGet("{id}")]
+        public IActionResult GetById(string id)
+        {
+            return Ok( bo.GetById(id));
+        }
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(bo.Get());
         }
         [HttpPut("{id}")]
         public IActionResult Update([FromBody]NguoiSuDung nguoisudung, string id)
