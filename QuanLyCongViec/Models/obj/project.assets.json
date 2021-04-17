@@ -6678,11 +6678,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj",
       "projectName": "Models",
       "projectPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hp\\Desktop\\ThucTap-Minh\\QuanLyCongViec\\Models\\obj\\",
+=======
+      "projectUniqueName": "D:\\Data\\GitHub\\ThucTap\\QuanLyCongViec\\Models\\Models.csproj",
+      "projectName": "Models",
+      "projectPath": "D:\\Data\\GitHub\\ThucTap\\QuanLyCongViec\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "D:\\Data\\GitHub\\ThucTap\\QuanLyCongViec\\Models\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -103,6 +103,7 @@ E:\Git\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.cspr
 E:\Git\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
 E:\Git\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
 E:\Git\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+<<<<<<< Updated upstream
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
@@ -118,3 +119,20 @@ C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+=======
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\bin\Debug\netcoreapp3.1\Models.dll
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\bin\Debug\netcoreapp3.1\Models.pdb
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Data\GitHub\ThucTap\QuanLyCongViec\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+>>>>>>> Stashed changes

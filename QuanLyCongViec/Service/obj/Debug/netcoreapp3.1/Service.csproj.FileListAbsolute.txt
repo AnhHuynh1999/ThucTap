@@ -117,6 +117,7 @@ E:\Git\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.csproj.Cop
 E:\Git\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.dll
 E:\Git\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.pdb
 E:\Git\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.genruntimeconfig.cache
+<<<<<<< Updated upstream
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\Service.deps.json
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.json
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.dev.json
@@ -134,3 +135,22 @@ C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.pdb
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.genruntimeconfig.cache
+=======
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.json
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.dev.json
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\Service.dll
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\Service.pdb
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\Models.dll
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\bin\Debug\netcoreapp3.1\Models.pdb
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.dll
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.pdb
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Service\obj\Debug\netcoreapp3.1\Service.genruntimeconfig.cache
+>>>>>>> Stashed changes

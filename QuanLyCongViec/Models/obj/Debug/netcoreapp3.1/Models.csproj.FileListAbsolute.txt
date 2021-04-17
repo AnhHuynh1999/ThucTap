@@ -81,6 +81,7 @@ E:\Git\ThucTap\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreC
 E:\Git\ThucTap\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.dll
 E:\Git\ThucTap\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.pdb
 E:\Git\ThucTap\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.genruntimeconfig.cache
+<<<<<<< Updated upstream
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Models\bin\Debug\netcoreapp3.1\Models.deps.json
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.json
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.dev.json
@@ -93,3 +94,17 @@ C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\M
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.dll
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.pdb
 C:\Users\hp\Desktop\ThucTap-Minh\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.genruntimeconfig.cache
+=======
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.json
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.dev.json
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\bin\Debug\netcoreapp3.1\Models.dll
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\bin\Debug\netcoreapp3.1\Models.pdb
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.csprojAssemblyReference.cache
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.dll
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.pdb
+D:\Data\GitHub\ThucTap\QuanLyCongViec\Models\obj\Debug\netcoreapp3.1\Models.genruntimeconfig.cache
+>>>>>>> Stashed changes
